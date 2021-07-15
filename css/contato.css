@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #1d222c;
+    color: #fff;
+
+    font-family:'Barlow', sans-serif;
+}
+.header {
+    width: 100%;
+    background-color: #050607;
+
+    display: flex;
+    align-items: center;
+
+    color: #fff;
+    
+    justify-content: space-between;
+}
+.logo {
+    width: 64px;
+    height: 64px;
+    margin-right: 8px;
+}
+.header-title {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    margin-left: 20px;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    margin: 40px;
+}
+/* FORM */
+    form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    font-size: 16px;
+    background: #3d4651;
+    max-width: 500px;
+    padding: 0 10px 10px 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    
+    }
+
+    .form {
+        display: flex;
+        margin-top: 150px;
+    }
+    
+    h1{
+    color: #fff;
+    }
+    
+    input, textarea{
+    width: 474px;
+    padding: 10px;
+    }
+    
+    .enviar input {
+    background-color: #f19947;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 0;
+    color: #000;
+    cursor: pointer;
+
+    margin: 20px;
+    }
+    
+    /*.enviar input:hover{
+    background: #078;
+    color: #000;
+    }*/
+    
+    textarea {
+    width: 474px;
+    height: 120px;
+    line-height: 20px;
+    }
